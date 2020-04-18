@@ -11,6 +11,7 @@ namespace Dziedziczenie.Przeciazanie
 
         private double x;
         private double y;
+        private double z;
 
         public double X 
         {
