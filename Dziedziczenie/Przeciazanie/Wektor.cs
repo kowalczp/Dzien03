@@ -49,7 +49,7 @@ namespace Dziedziczenie.Przeciazanie
         }
 
         public static Wektor operator +(Wektor w1, double liczba)
-        {
+        { 
             return new Wektor(w1.X + liczba, w1.Y + liczba);
         }
 
