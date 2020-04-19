@@ -8,11 +8,16 @@ namespace MiniShop
 {
     class OrderItem
     {
-        protected Product product;
-        protected int qnty;
+        private Product product;
+        private int qnty;
 
-        protected double ProductPrice { get { return product.Price; } }
-        protected double Qnty { get { return product.Qnty; } }
+        public double ProductPrice { get { return product.Price; } }
+        public int Qnty { 
+            get { return qnty; }
+            set { qnty = value; }
+        }
+
+        public Product Product { get { return product; } }
 
         public OrderItem(Product product, int qnty)
         {
