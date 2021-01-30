@@ -13,7 +13,7 @@ namespace Klasy
             Samochod samochod = new Samochod("FIAT",200);
          
             samochod.PredkoscMax = -10;
-            //  int predkosc = samochod.PodajPredkoscMax();
+
             int predkosc = samochod.PredkoscMax;
             Console.WriteLine("Predkosc max = {0}", predkosc);
             Console.ReadKey();
