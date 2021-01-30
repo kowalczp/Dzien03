@@ -11,7 +11,7 @@ namespace Klasy
         static void Main(string[] args)
         {
             Samochod samochod = new Samochod("FIAT",200);
-            //samochod.UstawPredkoscMax(250);
+         
             samochod.PredkoscMax = -10;
             //  int predkosc = samochod.PodajPredkoscMax();
             int predkosc = samochod.PredkoscMax;
